@@ -1,0 +1,23 @@
+name: John Doe
+title: Computer science student
+description: I love computers, and I love cats!
+links:
+  - title: Github
+    value: https://github.com/johndoe
+    href: https://github.com/johndoe
+  - title: Email
+    value: john.doe@johndoe.com
+    href: mailto:john.doe@johndoe.com
+  - title: Phone
+    value: '+46 123 234 234'
+    href: tel:+46123234234
+programs:
+  - title: Bachelors program in computer science
+    school: Gothenburg University
+    start: September 2017
+    end: June 2020
+courses:
+  - title: Introduction to computer and system sciences
+    points: 7.5
+  - title: Introduction to programming
+    points: 7.5

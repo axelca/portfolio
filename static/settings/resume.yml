@@ -1,0 +1,22 @@
+goals:
+  - title: Career goals
+    content: Write your career goals here
+education:
+  - title: Education
+programs:
+  - title: Example programme
+    school: Example university
+    start: September 2017
+    end: June 2020
+    content: A shor description of whats going on in your program right now.
+work:
+  - title: Work experience
+workplaces:
+  - title: Title
+    employer: Employer
+    start: Start date
+    end: End date
+    content: A short description of your employment
+knowledge:
+  - title: Knowledge
+    content: A list of things that make you awesome!

@@ -1,0 +1,43 @@
+.projectPreview {
+  background: #FFE66D;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  position: relative;
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 18px;
+}
+
+.inner {
+  background: #F0F5F9;
+  position: relative;
+  top: -8px;
+  left: -8px;
+}
+
+.image {
+  width: 100%;
+  justify-self: center;
+  display: flex;
+}
+
+.title {
+  margin: 30px 0;
+  margin-bottom: 0;
+  font-size: 1.22em;
+  line-height: 1.400em;
+}
+
+.type {
+  margin: 30px 0;
+  color: grey;
+  margin-top: 0;
+  font-weight: bold;
+  opacity: 0.6;
+}
+
+.title, .type, .content {
+  padding: 0 20px;
+}
+
+.content {
+  padding-bottom: 50px;
+}

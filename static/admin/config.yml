@@ -1,0 +1,39 @@
+backend:
+  name: github
+  repo: # Path to your GitHub repository
+
+media_folder: static/assets
+public_folder: /assets
+
+slug:
+  encoding: 'ascii'
+  clean_accents: true
+
+collections:
+  - name: 'projects'
+    label: 'Projects'
+    label_singular: 'Project'
+    slug: '{{slug}}'
+    description: 'A collection of projects to be displayed on the website'
+    folder: 'static/projects'
+    create: true
+    fields:
+      - {
+          name: 'templateKey',
+          label: 'Template Key',
+          widget: 'hidden',
+          default: 'project',
+        }
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'date', label: 'Date', widget: 'datetime' }
+      - { name: 'body', label: 'Body', widget: 'markdown' }
+  - name: 'settings'
+    label: 'Settings'
+    files:
+      - label: 'Student'
+        name: 'student'
+        file: 'static/settings/student.yml'
+        fields:
+          - { label: 'Name', name: 'name', widget: 'string' }
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Description', name: 'body', widget: 'markdown' }
